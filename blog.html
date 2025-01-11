@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="Index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificates and Online Programs For 2025</h1>
+    </section>
+ <!----------------- Blog Page Content ------------------>
+  <section class="blog-Content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="certificate.jpg">
+            <h2>Our Certificates and Online Programs For 2025</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Quod deserunt quibusdam maxime nesciunt quasi mollitia tempora, 
+                accusantium molestiae omnis assumenda error officiis voluptatibus 
+                dicta ipsam alias facere accusamus vero consectetur?
+            </p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Dolorem in deserunt ut, nisi sint tempora eveniet natus 
+                obcaecati recusandae nobis mollitia distinctio? Et nostrum, 
+                assumenda architecto dolor officia voluptatum exercitationem!
+            </p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Laboriosam doloremque porro molestiae amet praesentium, 
+                iste sit ex nostrum cum hic sunt odio facilis dolorem eveniet 
+                eius quia, neque distinctio possimus?
+            </p>
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+                <form action="" class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your comment"></textarea>
+                    <button type="submit" class="btn redBtn">Post Comment</button>
+                </form>
+            </div>
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Artificial Intellegence</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Electronics</span>
+                <span>21</span>
+            </div>
+        </div>
+    </div>
+  </section>
+ <!----------------- Footer ------------------>
+ <section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis libero sequi sint? Fugiat, mollitia quo deserunt dicta laborum tempore fuga pariatur asperiores, <br>magnam excepturi possimus, accusamus nam placeat veritatis libero?</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Shubham</p>
+ </section>
+ <!----------------- Javascript ------------------>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0"
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+</html>
